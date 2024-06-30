@@ -1,0 +1,71 @@
+
+    /* Estilos gerais */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Estilo do cabeçalho */
+    .header {
+      text-align: center;
+      padding: 30px;
+      margin: 30px;
+      background-color: white;
+    }
+    
+    /* Estilo da barra de navegação */
+    .topnav {
+      float: left;
+      width: 100%;
+      text-align: left;
+      background-color: #424141;
+      padding: 14px 16px;
+      color: #f1f1f1;
+      text-decoration: none;
+    }
+    
+    /* Estilo da âncora para o carrinho de compras */
+    .topnav a:last-child {
+      float: right;
+    }
+    
+    /* Estilo da imagem do carrinho de compras */
+    .topnav span img {
+      width: 22px;
+      vertical-align: middle;
+    }
+    
+    /* Estilo do cartão de venda */
+    .sellcard {
+      float: left;
+      width: 23.4%;
+      margin: 10px;
+    }
+    
+    /* Estilo da imagem dentro do cartão de venda */
+    .sellcard img {
+      width: 80%;
+      margin: auto;
+    }
+    
+    /* Estilo da descrição dentro do cartão de venda */
+    .sellcard .descricao {
+      text-align: center;
+      font-size: 15px;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+    }
+    
+    /* Estilo do valor dentro do cartão de venda */
+    .sellcard .valor {
+      text-align: center;
+      font-size: 0.8em;
+      font-weight: bold;
+    }
+    
+    /* Estilo do texto de compra dentro do cartão de venda */
+    .sellcard .compra {
+      text-align: center;
+    }
